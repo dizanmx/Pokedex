@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Buscador Pokemon</title>
+</head>
+<body>
+    <form onsubmit="buscapkmn(); return false;">
+        <h1>Buscador pokemon marca A.C.M.E.</h1>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a3/latest/20160126200044/Detective_Pikachu.png/230px-Detective_Pikachu.png">
+        <div>
+          <label for="Buscador">Nombre de pokemon</label>
+          <input type="search" id="Buscador" name="Buscador">
+          <input type="button" value="Buscar" onclick="buscapkmn()" id="botonpkmn">
+        </div>
+      </form>
+    <div id = pokedex>
+    <img id="imagenPokemon" src="https://via.placeholder.com/150">
+    <div id="resultado"></div>
+    </div>
+</body>
+</html>
+
+
+<!-- <button id="botonpkmn">Buscar</button> -->

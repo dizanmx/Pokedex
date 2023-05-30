@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    #botonpkmn {
+      margin-top: 20px;
+      line-height: 60px;
+      font-weight: bold;
+      font-size: large;
+      color: black;
+      padding: 0 40px;
+      background: lightblue;
+      border: 3px solid #003060;
+      border-radius: 40px;
+      box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    }
+    #botonpkmn:hover {
+      background: #003060;
+      color: white;
+      position: relative;
+      top: 10px;
+      box-shadow: none;
+    }
+
+    
+#Buscador {
+    background: url(https://st5.depositphotos.com/9388840/62434/v/600/depositphotos_624340654-stock-illustration-game-pokeball-outline-icon-pokemon.jpg) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 370px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+     }
+
+  form{
+    
+    padding-top: 20px;
+    width: 800px;
+    height: 500px;
+    background-color: brown;
+    
+    margin: 50px auto;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: -10px 20px 15px 10px gray;
+
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    }
+
+    label{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+                
+    }
+
+    button{
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+              
+  }
+
+  #pokedex{
+
+      margin-top: 5px;
+      margin-bottom: 30px;
+      margin-left: 550px;
+      margin-right: 550px;
+      text-align:justify;
+      font-size: large;
+      font-style: italic;
+      background-color: brown;
+      box-shadow: -10px 20px 15px 10px gray;
+  }
+
+  #imagenPokemon{
+
+    margin-top: 1px;
+    margin-left: 350px;
+    
+  }
+
+  #resultado{
+    margin-top: 1px;
+    margin-left: 350px;
+    margin-right: 35px;
+    
+  }
